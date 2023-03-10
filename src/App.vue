@@ -1,6 +1,7 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- Vue3组件中的模板结构可以没有根标签 -->
+  <img alt="Hello logo" src="./assets/popcat.gif">
+  <HelloWorld msg="Welcome to My Vue.js App" />
 </template>
 
 <script>
@@ -22,5 +23,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  width: 80px;
+  height: auto;
 }
 </style>
